@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
           labelLarge: TextStyle(fontWeight: FontWeight.w600),
         ),
       ),
-      initialRoute: AppRoute.register,
+      initialRoute: AppRoute.login,
       getPages: AppPage.pages,
     );
   }

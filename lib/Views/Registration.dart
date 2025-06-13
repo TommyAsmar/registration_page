@@ -5,13 +5,6 @@ import 'package:flutter/material.dart';
 class Registration extends GetView<RegistrationController> {
   final _formKey = GlobalKey<FormState>();
   final RxBool _obscurePassword = true.obs;
-
-  final _nameController = TextEditingController();
-  final _emailController = TextEditingController();
-  final _phoneController = TextEditingController();
-  final _countryController = TextEditingController();
-  final _passwordController = TextEditingController();
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
